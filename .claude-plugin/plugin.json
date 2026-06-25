@@ -1,0 +1,11 @@
+{
+  "name": "life-reading",
+  "description": "Interpret phenomena, texts, situations, emotions, dreams, conversations, numbers, and symbolic inputs through N2C — Neo²-Confucianism / Dynamic Resonance Ontology. A philosophical, non-deterministic reading of a situation, concept, feeling, or text, including 사념점 number readings and life-reflection / counseling moments where the user seeks perspective or direction.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yuri Ahn",
+    "email": "h.yura.a@gmail.com"
+  },
+  "homepage": "https://github.com/ahnbingbing/life-reading",
+  "license": "MIT"
+}
