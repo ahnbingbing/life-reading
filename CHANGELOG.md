@@ -1,0 +1,26 @@
+# Changelog
+
+All notable changes to **life-reading (n2c)** are documented here. Bilingual EN / KO.
+This project adheres to [Semantic Versioning](https://semver.org/).
+
+## 0.1.0
+
+Initial build: an installable, bilingual (EN/KO) Claude skill that turns the N2C philosophy
+(Neo²-Confucianism / Dynamic Resonance Ontology — 리·기·도) into an interpretive reading lens.
+Four capabilities: read any input (situation/text/emotion/dream/symbol) through 리·기·도 + wave +
+cooperation layer; 사념점 number readings with the number **drawn from the present moment** (not
+user input) and an internal I Ching structure layer (mapping confirmed v1.0); A vs B recommendation
+as a lean, not a verdict; and life-reflection / counseling in a dry-but-kind register with care
+guardrails (pure venting → listen first, crisis/safety → no reading, direct to real help). Two
+stdlib-only scripts (`draw_number.py`, `hexagram.py`). It is *local inference* that returns the
+choice to the user — not fortune-telling, fatalism, MBTI, tarot, astrology, therapy, or crisis
+support. Composes with the sibling `aligned-delivery` skill as a 0-impact resonance complement.
+
+초기 빌드: N2C 철학(Neo²-Confucianism / 동적 공명 존재론 — 리·기·도)을 해석적 읽기 렌즈로 만든
+설치형·이중언어(EN/KO) Claude 스킬. 역량 4종: 무엇이든(상황·텍스트·감정·꿈·상징) 리·기·도+파동+
+공조층으로 읽기; 숫자를 **그 순간에서 뽑는** 사념점 리딩(사용자 입력 아님) + 내부 주역 구조층(매핑
+v1.0 확정); 단정이 아니라 기울기로 주는 A vs B 추천; 드라이하되 친절한 어투의 삶·고민 상담(그냥
+하소연→먼저 듣기, 위기·안전→읽지 않고 진짜 도움으로 안내). 표준 라이브러리만 쓰는 스크립트 2종
+(`draw_number.py`, `hexagram.py`). 고정된 미래를 단정하지 않고 최종 선택을 사용자에게 돌려주는
+*국소 추론* — 점·운명론·MBTI·타로·점성술·치료·위기지원이 아님. 형제 스킬 `aligned-delivery`와
+0-impact 공명 보완으로 컴포즈됨.

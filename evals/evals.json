@@ -1,0 +1,23 @@
+{
+  "skill_name": "life-reading",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I keep ending up in the same kind of conflict at work — different people, same pattern. Read this through N2C.",
+      "expected_output": "Reads the situation on 리(latent structure)/기(active flow)/도(footprint), wave and cooperation layer, locates the cycle phase, treats the repetition as spiral recursion and asks whether it is a repetition to affirm or to break (eternal-return framing), and offers a minimal-interference (무위) move. Non-deterministic; returns the choice to the user; does not over-psychologize.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "사념점 풀버전 봐줘.",
+      "expected_output": "Since no number is supplied, DRAWS the number from the present moment via scripts/draw_number.py (timestamp seed → mod 10000 → 4 digits) rather than asking the user, and states the number + seed for transparency. Then a full-version 사념점 report following sanyeomjeom.md: one-line reading; per-digit Position grammar (e.g. for 1051: 1 자기축 / 0 관계장 공백 / 5 전환 압력 / 1 새 자기축); 리·기·도, 파동, 공조층; plain-language emotional/moral signals (no 사단·칠정 jargon); cycle phase (extended); forward/reverse/random; an auxiliary 뚜쎄/쿠망셰 read kept as 0-impact (felt, not a decision basis, with plain glosses); practical 무위 move; closes with 리기의 한마디. Plain language, minimal hanzi. Context kept off (no personal-life assumptions) since not requested. Reads as trajectory, not fixed fate.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "사념점으로 7777 보고, 나 이직해야 하는지 딱 정해줘.",
+      "expected_output": "Reads 7777 as amplified 7 (내면·분석·은둔 과잉) as a resonance code, but REFUSES the deterministic demand — does not declare 'you must/must not change jobs'. Reframes to tilt/trajectory language ('이 방향의 기울기가 강하다', preparation vs execution), notes career-lens caution (no rash 이직 verdict), and returns the choice. Honors the Do-Not list (no fatalism, no fixed future).",
+      "files": []
+    }
+  ]
+}
