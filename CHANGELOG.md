@@ -3,6 +3,19 @@
 All notable changes to **life-reading (n2c)** are documented here. Bilingual EN / KO.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## 0.1.1
+
+Readability fix: every reading now **opens with a jargon-free "한눈에 / At a glance" line**
+(topic + bottom line) before any N2C term, and **never opens with metaphor** (뚜쎄/쿠망셰/무위).
+For an A vs B recommendation, the reading must **restate what A and B literally are, in the
+user's own words**, and the answer must be graspable from the opening line alone. Applies in
+every language (KO + EN). Enforced in `SKILL.md` (How to respond + Do NOT) and
+`references/sanyeomjeom.md` (§9 template & output rules, §10.5 recommendation, §12 Do Not).
+
+가독성 수정: 모든 리딩이 은유·전문용어 없는 **"한눈에" 요약 한 줄**(무엇·결론)로 시작하고
+은유로 시작하지 않음. A vs B 추천은 **A·B가 뭔지 사용자 말 그대로 다시 적고**, 그 요약만으로
+답이 이해돼야 함. 한·영 공통.
+
 ## 0.1.0
 
 Initial build: an installable, bilingual (EN/KO) Claude skill that turns the N2C philosophy
