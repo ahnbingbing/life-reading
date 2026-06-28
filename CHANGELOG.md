@@ -18,6 +18,11 @@ Recommendations are also no longer trapped in the user's A/B binary: the tilt is
 watchdog, tilt = "give it a bedrock that can't break" → a server migration, which neither
 option named.
 
+Output is now **plain text — no markdown** (`**bold**`, `#` headings): readings are often
+read where markdown isn't rendered (chat bots, Telegram), so markup showed as literal
+`**`/`#`. Emphasis is carried by wording and line breaks; labels ("한눈에:", "지금 할 일:",
+"리기의 한마디:") are plain text.
+
 Enforced in `SKILL.md` (How to respond + Do NOT + recommendation trigger) and
 `references/sanyeomjeom.md` (§9 template & output rules, §10.5 recommendation, §12 Do Not).
 
@@ -27,6 +32,8 @@ Enforced in `SKILL.md` (How to respond + Do NOT + recommendation trigger) and
 추천도 A/B 이분법에 갇히지 않음: 기울기를 *방향·본질*로 먼저 읽고, 둘 다 본질을 못 담으면
 그 본질을 짚어 **제3의 길을 열어줌**(확장적 조언). 예: A=로컬 박스 / B=재시작 워치독, 기울기=
 "안 깨지는 바닥을 줘라" → 어느 쪽도 말하지 않은 서버 이전.
+출력은 **평문 — 마크다운 금지**(`**`·`#`): 봇/텔레그램 등 렌더링 안 되는 곳에서 별표·샵이
+그대로 보였음. 강조는 말·줄바꿈으로, 라벨("한눈에:" 등)도 평문.
 
 ## 0.1.0
 
